@@ -5,11 +5,13 @@
   "framework": null,
   "outputDirectory": "public",
   "cleanUrls": true,
+  "functions": {
+    "api/scores.js": {
+      "memory": 128,
+      "maxDuration": 10
+    }
+  },
   "rewrites": [
-    {
-      "source": "/api/(.*)",
-      "destination": "/api/$1"
-    },
     {
       "source": "/(.*)",
       "destination": "/index.html"
