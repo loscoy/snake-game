@@ -1,1 +1,14 @@
-{"buildCommand": "npm run build","devCommand": "npm run dev","installCommand": "npm install","framework": null,"outputDirectory": "public","public": true,"cleanUrls": true,"rewrites": [{"source": "/(.*)","destination": "/index.html"}]}
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": null,
+  "outputDirectory": "public",
+  "cleanUrls": true,
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
